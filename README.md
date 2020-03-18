@@ -2,7 +2,7 @@
 
 ![](https://github.com/kagawa-metropolitan-gov/covid19/workflows/production%20deploy/badge.svg)
 
-[![香川県 新型コロナウイルス感染症対策サイト](https://user-images.githubusercontent.com/19589940/76959982-f2868a80-695d-11ea-9d8e-28e9e9225d2c.png)](https://stopcovid19.metro.kagawa.lg.jp/)
+[![香川県 新型コロナウイルス感染症対策サイト](https://user-images.githubusercontent.com/19589940/76959982-f2868a80-695d-11ea-9d8e-28e9e9225d2c.png)](https://kagawa-covid19.netlify.com/)
 
 ### 日本語 | [English](./README_EN.md)
 
@@ -57,7 +57,7 @@ $ docker-compose run --rm app yarn install
 
 ### ステージング・本番環境への反映
 
-`master` ブランチがアップデートされると、自動的に `production` ブランチにHTML類がbuildされます。そして、本番サイト https://stopcovid19.metro.kagawa.lg.jp/ が更新されます。
+`master` ブランチがアップデートされると、自動的に `production` ブランチにHTML類がbuildされます。そして、本番サイト https://kagawa-covid19.netlify.com/ が更新されます。
 
 `development` ブランチがアップデートされると、自動的に `dev-pages` ブランチにHTML類がbuildされます。そして、開発用サイト https://dev-covid19-kagawa.netlify.com/ が更新されます。
 
