@@ -38,12 +38,54 @@
         <li>{{ $t('各保健所にご相談ください') }}</li>
         <li>
           {{ $t('「新型コロナウイルス感染症にかかる相談窓口について」') }}<br />
-          <a
-            href="https://www.fukushihoken.metro.tokyo.lg.jp/iryo/kansen/coronasodan.html"
-            target="_blank"
-            rel="noopener"
-            >https://www.fukushihoken.metro.tokyo.lg.jp/iryo/kansen/coronasodan.html</a
-          >
+          <table summary="相談窓口（帰国者・接触者相談センター）連絡先一覧">
+            <tbody>
+              <tr>
+                <th>
+                  <strong>相談窓口</strong>
+                </th>
+                <th>
+                  <strong>電話番号</strong>
+                </th>
+                <th>
+                  <strong>FAX（土日祝除く）</strong>
+                </th>
+                <th>
+                  <strong>開設時間</strong>
+                </th>
+              </tr>
+              <tr>
+                <td>小豆保健所</td>
+                <td>0879－62－1373</td>
+                <td>0879－62－1384</td>
+                <td>8時30分～17時15分</td>
+              </tr>
+              <tr>
+                <td>東讃保健所</td>
+                <td>0879－29－8261</td>
+                <td>0879－42－5881</td>
+                <td>8時30分～17時15分</td>
+              </tr>
+              <tr>
+                <td>中讃保健所</td>
+                <td>0877－24－9962</td>
+                <td>0877－24－8341</td>
+                <td>8時30分～17時15分</td>
+              </tr>
+              <tr>
+                <td>西讃保健所</td>
+                <td>0875－25－2052</td>
+                <td>0875－25－6320</td>
+                <td>8時30分～17時15分</td>
+              </tr>
+              <tr>
+                <td>高松市保健所</td>
+                <td>087－839－2870</td>
+                <td>087－839－2879</td>
+                <td>8時30分～17時15分</td>
+              </tr>
+            </tbody>
+          </table>
         </li>
       </ul>
     </StaticCard>
@@ -86,5 +128,13 @@ export default Vue.extend({
     color: $gray-2;
     margin-bottom: 12px;
   }
+}
+
+th {
+  text-align: center;
+}
+
+td {
+  padding: 5px 15px;
 }
 </style>

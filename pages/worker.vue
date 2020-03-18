@@ -6,7 +6,7 @@
     <StaticCard>
       <h3>
         <a
-          href="http://www.sangyo-rodo.metro.tokyo.jp/chushou/kinyu/yuushi/yuushi/new"
+          href="http://www.sangyo-rodo.metro.kagawa.jp/chushou/kinyu/yuushi/yuushi/new"
           target="_blank"
           rel="noopener"
           >{{ $t('新型コロナウイルス感染症に対応した制度融資') }}</a
@@ -23,7 +23,7 @@
     <StaticCard>
       <h3>
         <a
-          href="https://www.tokyo-kosha.or.jp/topics/2003/0001.html"
+          href="https://www.kagawa-kosha.or.jp/topics/2003/0001.html"
           target="_blank"
           rel="noopener"
           >{{ $t('新型コロナウイルスによる経営課題に関する専門家派遣') }}</a
@@ -40,7 +40,7 @@
     <StaticCard>
       <h3>
         <a
-          href="https://www.hataraku.metro.tokyo.jp/kansensyo/index.html"
+          href="https://www.hataraku.metro.kagawa.jp/kansensyo/index.html"
           target="_blank"
           rel="noopener"
           >{{ $t('中小企業従業員融資') }}</a
@@ -57,7 +57,7 @@
     <StaticCard>
       <h3>
         <a
-          href="https://www.hataraku.metro.tokyo.jp/kansensyo/index.html"
+          href="https://www.hataraku.metro.kagawa.jp/kansensyo/index.html"
           target="_blank"
           rel="noopener"
           >{{
@@ -76,7 +76,7 @@
     <StaticCard>
       <h3>
         <a
-          href="https://www.hataraku.metro.tokyo.jp/kansensyo/index.html"
+          href="https://www.hataraku.metro.kagawa.jp/kansensyo/index.html"
           target="_blank"
           rel="noopener"
           >{{ $t('新型コロナウイルス感染症対策雇用環境整備促進事業') }}</a
@@ -85,7 +85,7 @@
       <p>
         {{
           $t(
-            '感染症の拡大を理由として、国の雇用調整助成金等を活用し、非常時における勤務体制づくりなど職場環境整備に取り組む都内中小企業に奨励金を支給します（1事業所10万円）。'
+            '感染症の拡大を理由として、国の雇用調整助成金等を活用し、非常時における勤務体制づくりなど職場環境整備に取り組む県内中小企業に奨励金を支給します（1事業所10万円）。'
           )
         }}
       </p>
@@ -93,7 +93,7 @@
     <StaticCard>
       <h3>
         <a
-          href="https://www.hataraku.metro.tokyo.jp/kansensyo/index.html"
+          href="https://www.hataraku.metro.kagawa.jp/kansensyo/index.html"
           target="_blank"
           rel="noopener"
           >{{ $t('テレワーク導入モデル体験事業') }}</a
@@ -119,14 +119,14 @@
       <p>
         {{
           $t(
-            '都内中堅・中小企業に対し、テレワークの導入に必要な機器やソフトウェア等の経費を助成します（限度額250万円、助成率10/10）。ぜひご活用ください。'
+            '県内中堅・中小企業に対し、テレワークの導入に必要な機器やソフトウェア等の経費を助成します（限度額250万円、助成率10/10）。ぜひご活用ください。'
           )
         }}
       </p>
     </StaticCard>
     <StaticCard>
       <h3>
-        <a href="https://tokyo-telework.jp/" target="_blank" rel="noopener">{{
+        <a href="https://kagawa-telework.jp/" target="_blank" rel="noopener">{{
           $t('テレワークオンラインセミナー開催')
         }}</a>
       </h3>
@@ -141,7 +141,7 @@
     <StaticCard>
       <h3>
         <a
-          href="http://www.sangyo-rodo.metro.tokyo.jp/attention/2020/0305_13201.html"
+          href="http://www.sangyo-rodo.metro.kagawa.jp/attention/2020/0305_13201.html"
           target="_blank"
           rel="noopener"
           >{{ $t('中小企業者等特別相談窓口') }}</a
@@ -154,7 +154,7 @@
     <StaticCard>
       <h3>
         <a
-          href="http://www.sangyo-rodo.metro.tokyo.jp/attention/2020/0305_13201.html"
+          href="http://www.sangyo-rodo.metro.kagawa.jp/attention/2020/0305_13201.html"
           target="_blank"
           rel="noopener"
           >{{ $t('フリーランスを含む個人事業主特別相談窓口') }}</a
@@ -169,7 +169,7 @@
     <StaticCard>
       <h3>
         <a
-          href="https://www.hataraku.metro.tokyo.lg.jp/sodan/sodan/index.html"
+          href="https://www.hataraku.metro.kagawa.lg.jp/sodan/sodan/index.html"
           target="_blank"
           rel="noopener"
           >{{ $t('緊急労働相談ダイヤル') }}</a
@@ -186,7 +186,7 @@
     <StaticCard>
       <h3>
         <a
-          href="https://smooth-biz.metro.tokyo.lg.jp/"
+          href="https://smooth-biz.metro.kagawa.lg.jp/"
           target="_blank"
           rel="noopener"
           >{{
