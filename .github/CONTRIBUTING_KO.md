@@ -39,7 +39,7 @@
 ## 개발에 관한 정보
 * 개발 사이트 https://dev-covid19-kagawa.netlify.com/
 * 스테이징 배포 사이트 https://stg-covid19-kagawa.netlify.com/
-* 운영 배포 사이트 https://stopcovid19.metro.kagawa.lg.jp/
+* 운영 배포 사이트 https://kagawa-covid19.netlify.com/
 * [디자인](https://www.figma.com/file/V7vt80p2gauhdgTZeVNbgj/UI%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3?node-id=121%3A156)
 * [번역 스프레드 시트](https://docs.google.com/spreadsheets/d/1avT6QGInyQseYjoc_TxL8RPZfutyvrv4BtJkXfk1Nko)
 
