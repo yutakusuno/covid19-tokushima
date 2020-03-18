@@ -24,6 +24,7 @@
           <div :class="$style.AdvisoryContentsTitle2">
             {{ $t('平日（日中）') }}
           </div>
+          <span>{{ $t('午前8時30分から午後5時15分') }}</span>
           <div
             :class="[
               $style.AdvisoryLink,
@@ -32,11 +33,11 @@
             ]"
           >
             <a
-              href="https://www.fukushihoken.metro.tokyo.lg.jp/iryo/kansen/coronasodan.html"
+              href="https://www.pref.kagawa.lg.jp/content/etc/subsite/kansenshoujouhou/kansen/sr5cfn200127213457.shtml#hoken_list"
               target="_blank"
               rel="noopener"
             >
-              <span>{{ $t('各保健所の電話番号は福祉保健局HPへ') }}</span>
+              <span>{{ $t('各保健所の電話番号は健康福祉部HPへ') }}</span>
               <v-icon size="18">
                 mdi-open-in-new
               </v-icon>
@@ -50,28 +51,12 @@
           <div :class="$style.AdvisoryContentsTitle2">
             {{ $t('平日（夜間）') }}
           </div>
-          <span>{{ $t('午後5時から翌朝午前9時') }}</span>
+          <span>{{ $t('午後5時15分から翌朝午前8時30分') }}</span>
         </div>
         <div class="mt-1">
           <span :class="$style.AdvisoryContentsSubTitle">
-            {{ $t('土日祝 終日') }}
+            「新型コロナウイルス感染症の疑い例」の場合は、休日・夜間も同じ番号で保健所夜間受付を経由して相談に応じます。
           </span>
-        </div>
-        <div
-          :class="[
-            $style.AdvisoryTelephoneArea,
-            $style.AdvisoryBlockCentering,
-            'mt-1'
-          ]"
-        >
-          <a :class="$style.AdvisoryTelephone" href="tel:0353204592">
-            <img
-              :class="$style.AdvisoryTelephoneIcon"
-              src="/flow/phone-24px.svg"
-              aria-hidden="true"
-            />
-            03-5320-4592
-          </a>
         </div>
       </div>
     </div>
