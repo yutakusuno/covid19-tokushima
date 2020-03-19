@@ -76,10 +76,10 @@ Hotfix commit: hotfix/#{ISSUE_ID}-{branch_title_name}
 | Purpose | Branch | Confirmation URL | Remarks |
 | ---- | -------- | ---- | ---- |
 | Development | development | http://dev-covid19-kagawa.netlify.com/ | base branch. Basically send a Pull Request here |
-| Production | master | http://stopcovid19.metro.kagawa.lg.jp/ | Pull Requests other than Administrators are prohibited |
+| Production | master | https://kagawa-covid19.netlify.com/ | Pull Requests other than Administrators are prohibited |
 
 #### Branch used by the system
 | Purpose | Branch | Confirmation URL | Remarks |
 | ---- | -------- | ---- | ---- |
-| Development site HTML | dev-pages | http://stopcovid19.metro.kagawa.lg.jp/ | Location where statically built HTML is located |
-| Production site HTML | production | http://stopcovid19.metro.kagawa.lg.jp/ | Location where statically built HTML is located |
+| Development site HTML | dev-pages | https://dev-kagawa-covid19.netlify.com/ | Location where statically built HTML is located |
+| Production site HTML | production | https://kagawa-covid19.netlify.com/ | Location where statically built HTML is located |
