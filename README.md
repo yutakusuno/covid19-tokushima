@@ -73,12 +73,6 @@ Pull Request を送る際の branch は、以下のネーミングルールで�
 | 目的 | ブランチ | 確認URL | 備考 |
 | ---- | -------- | ---- | ---- |
 | 開発 | development | http://dev-covid19-kagawa.netlify.com/ | base branch。基本はこちらに Pull Requestを送ってください |
-| 本番 | master | http://stopcovid19.metro.kagawa.lg.jp/ | 管理者以外の Pull Request は禁止です |
-
-#### システムで利用しているブランチ
-| 目的 | ブランチ | 確認URL | 備考 |
-| ---- | -------- | ---- | ---- |
-| 開発サイトHTML | dev-pages | http://stopcovid19.metro.kagawa.lg.jp/ | 静的ビルドされたHTMLが置いてある場所 |
-| 本番サイトHTML | production | http://stopcovid19.metro.kagawa.lg.jp/ | 静的ビルドされたHTMLが置いてある場所 |
+| 本番 | master | https://kagawa-covid19.netlify.com/ | 管理者以外の Pull Request は禁止です |
 
 
