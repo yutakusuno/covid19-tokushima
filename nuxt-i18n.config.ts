@@ -18,13 +18,13 @@ export default {
       name: '日本語',
       iso: 'ja-JP',
       file: 'ja.json'
-    },
-    {
-      code: 'en',
-      name: 'English',
-      iso: 'en-US',
-      file: 'en.json'
-    },
+    }
+    // {
+    //  code: 'en',
+    //  name: 'English',
+    //  iso: 'en-US',
+    //  file: 'en.json'
+    // },
     // {
     //   code: 'zh-cn',
     //   name: '简体中文',
@@ -51,11 +51,11 @@ export default {
     //   iso: 'pt-BR',
     //   file: 'pt_BR.json'
     // },
-    {
-      code: 'ja-basic',
-      name: 'やさしい にほんご',
-      iso: 'ja-JP',
-      file: 'ja-Hira.json'
-    }
+    // {
+    //  code: 'ja-basic',
+    //  name: 'やさしい にほんご',
+    //  iso: 'ja-JP',
+    //  file: 'ja-Hira.json'
+    // }
   ]
 }
