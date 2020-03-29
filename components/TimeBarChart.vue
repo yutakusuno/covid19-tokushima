@@ -165,7 +165,7 @@ const options: ThisTypedComponentOptionsWithRecordProps<
               data: this.chartData.map(d => {
                 return d.transition
               }),
-              backgroundColor: '#00B849',
+              backgroundColor: '#0f348d',
               borderWidth: 0
             }
           ]
@@ -179,7 +179,7 @@ const options: ThisTypedComponentOptionsWithRecordProps<
             data: this.chartData.map(d => {
               return d.cumulative
             }),
-            backgroundColor: '#00B849',
+            backgroundColor: '#0f348d',
             borderWidth: 0
           }
         ]

@@ -162,7 +162,7 @@ const options: ThisTypedComponentOptionsWithRecordProps<
       }
     },
     displayData() {
-      const colorArray = ['#00A040', '#00D154']
+      const colorArray = ['#0f348d', '#00D154']
       if (this.dataKind === 'transition') {
         return {
           labels: this.labels,
