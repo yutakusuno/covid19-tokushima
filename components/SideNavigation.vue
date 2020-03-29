@@ -11,9 +11,9 @@
       <nuxt-link :to="localePath('/')" class="SideNavigation-HeadingLink">
         <h1 class="SideNavigation-Heading">
           <div class="SideNavigation-Logo">
-            <img src="/logo.png" :alt="$t('香川県')" />
+            <img src="/logo.png" :alt="$t('徳島県')" />
           </div>
-          {{ $t('香川県新型コロナウイルス感染症') }}<br />{{
+          {{ $t('徳島県新型コロナウイルス感染症') }}<br />{{
             $t('非公式対策サイト')
           }}
         </h1>
@@ -47,12 +47,13 @@
       <v-footer class="SideNavigation-Footer">
         <div class="SideNavigation-SocialLinkContainer">
           <a
-            href="https://twitter.com/PrefKagawa"
+            href="https://twitter.com/preftokushima"
             target="_blank"
             rel="noopener"
           >
             <img src="/twitter.png" alt="Twitter" />
           </a>
+          <!--
           <a
             href="https://www.facebook.com/%E9%A6%99%E5%B7%9D%E7%9C%8C-291352664236696"
             target="_blank"
@@ -60,8 +61,9 @@
           >
             <img src="/facebook.png" alt="Facebook" />
           </a>
+          -->
           <a
-            href="https://github.com/codeforkagawa/covid19"
+            href="https://github.com/yuta-kusuno/covid19-tokushima"
             target="_blank"
             rel="noopener"
           >
@@ -114,36 +116,29 @@ export default Vue.extend({
           icon: 'mdi-account-multiple',
           title: this.$t('県民の皆様へ'),
           link:
-            'https://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/wt5q49200131182439.shtml'
+            'https://www.pref.tokushima.lg.jp/ippannokata/kenko/kansensho/5035331/'
         },
         {
           icon: 'mdi-domain',
           title: this.$t('企業の皆様・はたらく皆様へ'),
           link:
-            'https://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/w4ug21200315195814.shtml',
+            'https://www.pref.tokushima.lg.jp/ippannokata/kenko/kansensho/5035331/',
           divider: true
         },
-        {
-          title: this.$t('香川県新型コロナウイルス感染症対策本部報'),
-          link:
-            'https://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/wwf4tq200311154937.shtml'
-        },
-        {
-          title: this.$t('香川県主催等 中止又は延期するイベント等'),
-          link:
-            'https://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/w6t5fp200225155011.shtml'
-        },
+
         {
           title: this.$t('当サイトについて'),
           link: this.localePath('/about')
         },
         {
-          title: this.$t('お問い合わせ先一覧'),
-          link: this.localePath('/contacts')
+          title: this.$t('知事からのメッセージ'),
+          link:
+            'https://www.pref.tokushima.lg.jp/ippannokata/kenko/kansensho/5035364/#100',
+          divider: true
         },
         {
-          title: this.$t('香川県公式ホームページ'),
-          link: 'https://www.pref.kagawa.lg.jp/',
+          title: this.$t('徳島県公式ホームページ'),
+          link: 'https://www.pref.tokushima.lg.jp/',
           divider: true
         }
       ]

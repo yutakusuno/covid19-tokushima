@@ -8,7 +8,7 @@
       :date="Data.patients.date"
       :unit="$t('人')"
       :url="
-        'https://www.pref.kagawa.lg.jp/content/etc/subsite/kansenshoujouhou/kansen/sr5cfn200127213457.shtml#kennai'
+        'https://www.pref.tokushima.lg.jp/ippannokata/kenko/kansensho/5034012#15'
       "
     />
   </v-col>

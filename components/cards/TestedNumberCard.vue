@@ -1,7 +1,7 @@
 <template>
   <v-col cols="12" md="6" class="DataCard">
     <time-stacked-bar-chart
-      :title="$t('検査実施数')"
+      :title="$t('検査件数')"
       :title-id="'number-of-tested'"
       :chart-id="'time-stacked-bar-chart-inspections'"
       :chart-data="inspectionsGraph"
@@ -25,7 +25,7 @@ export default {
   data() {
     // 検査実施日別状況
     const inspectionsGraph = [Data.inspections_summary.data['県内']]
-    const inspectionsItems = [this.$t('県内発生（疑い例・接触者調査）')]
+    const inspectionsItems = [this.$t('検査件数')]
     const inspectionsLabels = Data.inspections_summary.labels
 
     const data = {

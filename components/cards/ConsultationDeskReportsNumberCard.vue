@@ -1,14 +1,14 @@
 <template>
   <v-col cols="12" md="6" class="DataCard">
     <time-bar-chart
-      :title="$t('「帰国者・接触者相談センター」受診相談件数')"
+      :title="$t('帰国者・接触者相談センター(保健所)相談件数')"
       :title-id="'number-of-reports-to-covid19-consultation-desk'"
       :chart-id="'time-bar-chart-querents'"
       :chart-data="querentsGraph"
       :date="Data.querents.date"
       :unit="$t('件.reports')"
       :url="
-        'https://www.pref.kagawa.lg.jp/content/etc/subsite/kansenshoujouhou/kansen/sr5cfn200127213457.shtml#kennai'
+        'https://www.pref.tokushima.lg.jp/ippannokata/kenko/kansensho/5034012#5'
       "
     />
     <!-- 件.reports = 窓口相談件数 -->
