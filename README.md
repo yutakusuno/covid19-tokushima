@@ -1,8 +1,4 @@
-# 香川県(非公式) 新型コロナウイルス感染症対策サイト
-
-![](https://github.com/kagawa-metropolitan-gov/covid19/workflows/production%20deploy/badge.svg)
-
-[![香川県 新型コロナウイルス感染症対策サイト](https://user-images.githubusercontent.com/19589940/76959982-f2868a80-695d-11ea-9d8e-28e9e9225d2c.png)](https://kagawa-covid19.netlify.com/)
+# 徳島県(非公式) 新型コロナウイルス感染症対策サイト
 
 ### 日本語 | [English](./README_EN.md)
 
@@ -57,9 +53,9 @@ $ docker-compose run --rm app yarn install
 
 ### ステージング・本番環境への反映
 
-`master` ブランチがアップデートされると、自動的に `production` ブランチにHTML類がbuildされます。そして、本番サイト https://kagawa-covid19.netlify.com/ が更新されます。
+`master` ブランチがアップデートされると、自動的に `production` ブランチにHTML類がbuildされます。そして、本番サイト https://tokushima-covid19.netlify.com/ が更新されます。
 
-`development` ブランチがアップデートされると、自動的に `dev-pages` ブランチにHTML類がbuildされます。そして、開発用サイト https://dev-covid19-kagawa.netlify.com/ が更新されます。
+`development` ブランチがアップデートされると、自動的に `dev-pages` ブランチにHTML類がbuildされます。そして、開発用サイト https://dev-covid19-tokushima.netlify.com/ が更新されます。
 
 ### ブランチルール
 
@@ -72,7 +68,7 @@ Pull Request を送る際の branch は、以下のネーミングルールで�
 #### 基本的なブランチ
 | 目的 | ブランチ | 確認URL | 備考 |
 | ---- | -------- | ---- | ---- |
-| 開発 | development | http://dev-covid19-kagawa.netlify.com/ | base branch。基本はこちらに Pull Requestを送ってください |
-| 本番 | master | https://kagawa-covid19.netlify.com/ | 管理者以外の Pull Request は禁止です |
+| 開発 | development | http://dev-covid19-tokushima.netlify.com/ | base branch。基本はこちらに Pull Requestを送ってください |
+| 本番 | master | https://tokushima-covid19.netlify.com/ | 管理者以外の Pull Request は禁止です |
 
 
