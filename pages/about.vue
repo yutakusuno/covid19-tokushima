@@ -175,7 +175,7 @@
         path="本サイトで公表しているデータは、{catalogWebsite}より誰でも自由にダウンロードが可能です。"
       >
         <a
-          href="https://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/wt5q49200131182439.shtml"
+          href="https://www.pref.tokushima.lg.jp/ippannokata/kenko/kansensho/5035331/"
           target="_blank"
           rel="noopener"
           place="catalogWebsite"
@@ -194,7 +194,7 @@
         }}
         <i18n path="詳しくは、{githubRepo}をご確認ください。">
           <a
-            href="https://github.com/codeforkagawa/covid19"
+            href="https://github.com/yuta-kusuno/covid19-tokushima"
             target="_blank"
             rel="noopener"
             place="githubRepo"

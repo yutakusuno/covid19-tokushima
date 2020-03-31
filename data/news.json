@@ -1,6 +1,16 @@
 {
     "newsItems": [
         {
+            "date": "2020\/3\/30",
+            "url": "https:\/\/www.pref.tokushima.lg.jp\/ippannokata\/kyoiku\/kanko\/5036006\/",
+            "text": "【開催中止】はな・はる・フェスタ2020"
+        },
+        {
+            "date": "2020\/3\/30",
+            "url": "https:\/\/www.pref.tokushima.lg.jp\/jigyoshanokata\/sangyo\/nogyo\/5035774\/",
+            "text": "新型コロナウイルス感染症に関する農林漁業者への支援について"
+        },
+        {
             "date": "2020\/3\/27",
             "url": "https:\/\/www.pref.tokushima.lg.jp\/kaigohoken\/topics\/5034744\/",
             "text": "新型コロナウイルス感染症に係る周知"
@@ -14,21 +24,6 @@
             "date": "2020\/3\/27",
             "url": "https:\/\/www.pref.tokushima.lg.jp\/ippannokata\/kurashi\/zeikin\/5035957\/",
             "text": "自動車の廃車等に係る窓口の混雑緩和対策にかかる自動車税種別割について"
-        },
-        {
-            "date": "2020\/3\/27",
-            "url": "https:\/\/www.pref.tokushima.lg.jp\/ippannokata\/kendozukuri\/doro\/5035963\/",
-            "text": "関西空港リムジンバス（全便運休）"
-        },
-        {
-            "date": "2020\/3\/27",
-            "url": "https:\/\/www.pref.tokushima.lg.jp\/ippannokata\/kyoiku\/gakkokyoiku\/5035998\/",
-            "text": "学校教育活動再開に関する新型コロナウイルス感染症対策について"
-        },
-        {
-            "date": "2020\/3\/27",
-            "url": "https:\/\/www.pref.tokushima.lg.jp\/ippannokata\/kurashi\/shohiseikatsu\/5035997\/",
-            "text": "「新型コロナウイルス予防に効果あり」等の広告及びマスクのおとり広告に注意！！（第2報）"
         }
     ]
 }
