@@ -11,7 +11,7 @@
       <nuxt-link :to="localePath('/')" class="SideNavigation-HeadingLink">
         <h1 class="SideNavigation-Heading">
           <div class="SideNavigation-Logo">
-            <img src="/Tokushima.svg" :alt="$t('徳島県')" />
+            <img src="/sudashi.png" :alt="$t('徳島県')" />
           </div>
           {{ $t('徳島県新型コロナウイルス感染症') }}<br />{{
             $t('非公式対策サイト')

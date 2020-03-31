@@ -53,7 +53,7 @@ $ docker-compose run --rm app yarn install
 
 ### ステージング・本番環境への反映
 
-`master` ブランチがアップデートされると、自動的に `production` ブランチにHTML類がbuildされます。そして、本番サイト https://tokushima-covid19.netlify.com/ が更新されます。
+`master` ブランチがアップデートされると、自動的に `production` ブランチにHTML類がbuildされます。そして、本番サイト https://covid19ーtokushima.netlify.com/ が更新されます。
 
 `development` ブランチがアップデートされると、自動的に `dev-pages` ブランチにHTML類がbuildされます。そして、開発用サイト https://dev-covid19-tokushima.netlify.com/ が更新されます。
 
@@ -69,6 +69,6 @@ Pull Request を送る際の branch は、以下のネーミングルールで�
 | 目的 | ブランチ | 確認URL | 備考 |
 | ---- | -------- | ---- | ---- |
 | 開発 | development | http://dev-covid19-tokushima.netlify.com/ | base branch。基本はこちらに Pull Requestを送ってください |
-| 本番 | master | https://tokushima-covid19.netlify.com/ | 管理者以外の Pull Request は禁止です |
+| 本番 | master | https://covid19ーtokushima.netlify.com/ | 管理者以外の Pull Request は禁止です |
 
 
