@@ -6,7 +6,7 @@
     <StaticCard>
       <h3>
         <a
-          href="http://www.sangyo-rodo.metro.kagawa.jp/chushou/kinyu/yuushi/yuushi/new"
+          href="http://www.sangyo-rodo.metro.tokushima.jp/chushou/kinyu/yuushi/yuushi/new"
           target="_blank"
           rel="noopener"
           >{{ $t('新型コロナウイルス感染症に対応した制度融資') }}</a
@@ -23,7 +23,7 @@
     <StaticCard>
       <h3>
         <a
-          href="https://www.kagawa-kosha.or.jp/topics/2003/0001.html"
+          href="https://www.tokushima-kosha.or.jp/topics/2003/0001.html"
           target="_blank"
           rel="noopener"
           >{{ $t('新型コロナウイルスによる経営課題に関する専門家派遣') }}</a
@@ -40,7 +40,7 @@
     <StaticCard>
       <h3>
         <a
-          href="https://www.hataraku.metro.kagawa.jp/kansensyo/index.html"
+          href="https://www.hataraku.metro.tokushima.jp/kansensyo/index.html"
           target="_blank"
           rel="noopener"
           >{{ $t('中小企業従業員融資') }}</a
@@ -57,7 +57,7 @@
     <StaticCard>
       <h3>
         <a
-          href="https://www.hataraku.metro.kagawa.jp/kansensyo/index.html"
+          href="https://www.hataraku.metro.tokushima.jp/kansensyo/index.html"
           target="_blank"
           rel="noopener"
           >{{
@@ -76,7 +76,7 @@
     <StaticCard>
       <h3>
         <a
-          href="https://www.hataraku.metro.kagawa.jp/kansensyo/index.html"
+          href="https://www.hataraku.metro.tokushima.jp/kansensyo/index.html"
           target="_blank"
           rel="noopener"
           >{{ $t('新型コロナウイルス感染症対策雇用環境整備促進事業') }}</a
@@ -93,7 +93,7 @@
     <StaticCard>
       <h3>
         <a
-          href="https://www.hataraku.metro.kagawa.jp/kansensyo/index.html"
+          href="https://www.hataraku.metro.tokushima.jp/kansensyo/index.html"
           target="_blank"
           rel="noopener"
           >{{ $t('テレワーク導入モデル体験事業') }}</a
@@ -126,9 +126,12 @@
     </StaticCard>
     <StaticCard>
       <h3>
-        <a href="https://kagawa-telework.jp/" target="_blank" rel="noopener">{{
-          $t('テレワークオンラインセミナー開催')
-        }}</a>
+        <a
+          href="https://tokushima-telework.jp/"
+          target="_blank"
+          rel="noopener"
+          >{{ $t('テレワークオンラインセミナー開催') }}</a
+        >
       </h3>
       <p>
         {{
@@ -141,7 +144,7 @@
     <StaticCard>
       <h3>
         <a
-          href="http://www.sangyo-rodo.metro.kagawa.jp/attention/2020/0305_13201.html"
+          href="http://www.sangyo-rodo.metro.tokushima.jp/attention/2020/0305_13201.html"
           target="_blank"
           rel="noopener"
           >{{ $t('中小企業者等特別相談窓口') }}</a
@@ -154,7 +157,7 @@
     <StaticCard>
       <h3>
         <a
-          href="http://www.sangyo-rodo.metro.kagawa.jp/attention/2020/0305_13201.html"
+          href="http://www.sangyo-rodo.metro.tokushima.jp/attention/2020/0305_13201.html"
           target="_blank"
           rel="noopener"
           >{{ $t('フリーランスを含む個人事業主特別相談窓口') }}</a
@@ -169,7 +172,7 @@
     <StaticCard>
       <h3>
         <a
-          href="https://www.hataraku.metro.kagawa.lg.jp/sodan/sodan/index.html"
+          href="https://www.hataraku.metro.tokushima.lg.jp/sodan/sodan/index.html"
           target="_blank"
           rel="noopener"
           >{{ $t('緊急労働相談ダイヤル') }}</a
@@ -186,7 +189,7 @@
     <StaticCard>
       <h3>
         <a
-          href="https://smooth-biz.metro.kagawa.lg.jp/"
+          href="https://smooth-biz.metro.tokushima.lg.jp/"
           target="_blank"
           rel="noopener"
           >{{

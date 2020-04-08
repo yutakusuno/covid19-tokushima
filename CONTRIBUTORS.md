@@ -1,4 +1,4 @@
-Kagawa Covid-19 response site contributors
+tokushima Covid-19 response site contributors
 ============================================
 
 本サイトにご協力いただいた皆様

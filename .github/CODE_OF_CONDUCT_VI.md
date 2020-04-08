@@ -1,7 +1,7 @@
 version 1.0, 2020/3/3
 # Nhiệm vụ của chúng tôi
 
-* Chúng tôi sẽ làm việc để bảo vệ cuộc sống và hạnh phúc của công dân Kagawa.
+* Chúng tôi sẽ làm việc để bảo vệ cuộc sống và hạnh phúc của công dân tokushima.
 * Chúng tôi sẽ làm việc để cung cấp sự thật cho tất cả mọi người, cả trong và ngoài nước.
 * Chúng tôi sẽ chứng minh tính toàn vẹn của chúng tôi và hình dung kết quả công việc của chúng tôi.
 
@@ -29,6 +29,6 @@ version 1.0, 2020/3/3
 
 ## Xây dựng với mọi người
 
-* Chúng tôi sẽ làm việc cùng nhau không chỉ với Chính quyền thành phố Kagawa, mà còn với bất kỳ ai muốn đóng góp.
+* Chúng tôi sẽ làm việc cùng nhau không chỉ với Chính quyền thành phố tokushima, mà còn với bất kỳ ai muốn đóng góp.
 * Chúng tôi sẽ hoan nghênh mọi đóng góp của công dân.
 * Chúng tôi sẽ tiếp tục cải thiện trang web này với người cần thông tin.

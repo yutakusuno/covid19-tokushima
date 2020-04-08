@@ -2,7 +2,7 @@
   <div v-if="isDevelopmentMode" class="DevelopmentModeMark">
     開発中（development mode）
     <a
-      href="https://kagawa-covid19.netlify.com/"
+      href="https://tokushima-covid19.netlify.com/"
       target="_blank"
       rel="noopener"
     >

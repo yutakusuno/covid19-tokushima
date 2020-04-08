@@ -1,7 +1,7 @@
 version 1.0, 2020/3/3
 # Notre Mission
 
-* Nous travaillerons pour proteger la vie et le bien-etre des citoyens de Kagawa.
+* Nous travaillerons pour proteger la vie et le bien-etre des citoyens de tokushima.
 * Nous travaillerons pour fournir les faits a tout le monde au Japon comme a l'etranger.
 * Nous demontrerons notre integrite et verrons les resultats de notre travail.
 
@@ -29,6 +29,6 @@ version 1.0, 2020/3/3
 
 ## Construit par tous
 
-* Nous travaillerons avec le Gouvernement Metropolitain de Kagawa, mais aussi n'importe qui voulant contribuer.
+* Nous travaillerons avec le Gouvernement Metropolitain de tokushima, mais aussi n'importe qui voulant contribuer.
 * Nous acceuillerons les contributions de n'importe quel citoyen.
 * Nous continuerons d'ameliorer ce site web avec ceux necessitant information.

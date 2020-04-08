@@ -201,8 +201,8 @@ const options: ThisTypedComponentOptionsWithRecordProps<
           displayColors: false,
           callbacks: {
             label: (tooltipItem: any) => {
-              const labelKagawa = this.$t('県内')
-              const labelArray = [labelKagawa]
+              const labeltokushima = this.$t('県内')
+              const labelArray = [labeltokushima]
               let casesTotal, cases
               if (this.dataKind === 'transition') {
                 casesTotal = sumArray[tooltipItem.index].toLocaleString()

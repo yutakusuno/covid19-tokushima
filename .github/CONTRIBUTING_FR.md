@@ -23,7 +23,7 @@ Cette page explique comment contribuer au developpement de ce site.
 * Veuillez lire le [Principes / Code de Conduite](CODE_OF_CONDUCT_EN.md) avant de participer au developpement.
 * Pour communiquer, veuillez lire le [Code de Conduite](https://github.com/codeforjapan/codeofconduct) de Code for Japan's.
 * Si vous prevoyez de travailler sur une issue, laissez un commentaire pour prevenir.
-* Pour les debutants, le label [good first issue label](https://github.com/kagawa-metropolitan-gov/covid19/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) est recommande.
+* Pour les debutants, le label [good first issue label](https://github.com/tokushima-metropolitan-gov/covid19/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) est recommande.
 * Si vous ne pouvez pas faire de progres pour plus d'une demi-journee assurez vous que d'autres puissent poursuivre votre travail.
 * Si une issue n'est pas mise a jour pour plus d'une journee, elle pourra etre retiree.
 * Un debut de [Draft Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests#draft-pull-requests) est recommandee pour tout travail en cours, afin que tout le monde puisse comprendre la situation.
@@ -31,9 +31,9 @@ Cette page explique comment contribuer au developpement de ce site.
 * Les suggestions sont bienvenues ! N'hesitez pas a creer de nouvelles issues.
 
 ## Development information
-* Site web `Development` https://dev-covid19-kagawa.netlify.com/
-* Site web `Staging` https://stg-covid19-kagawa.netlify.com/
-* Site web `Production` https://kagawa-covid19.netlify.com/
+* Site web `Development` https://dev-covid19-tokushima.netlify.com/
+* Site web `Staging` https://stg-covid19-tokushima.netlify.com/
+* Site web `Production` https://tokushima-covid19.netlify.com/
 * [Design](https://www.figma.com/file/V7vt80p2gauhdgTZeVNbgj/UI%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3?node-id=121%3A156)
 * [Tableur des Traaductions](https://docs.google.com/spreadsheets/d/1avT6QGInyQseYjoc_TxL8RPZfutyvrv4BtJkXfk1Nko)
 

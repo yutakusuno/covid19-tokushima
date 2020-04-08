@@ -101,7 +101,7 @@ export default {
     return data
   },
   head() {
-    const url = 'https://kagawa-covid19.netlify.com'
+    const url = 'https://tokushima-covid19.netlify.com'
     const timestamp = new Date().getTime()
     const ogpImage =
       this.$i18n.locale === 'ja'

@@ -33,7 +33,7 @@
             ]"
           >
             <a
-              href="https://www.pref.kagawa.lg.jp/content/etc/subsite/kansenshoujouhou/kansen/sr5cfn200127213457.shtml#hoken_list"
+              href="https://www.pref.tokushima.lg.jp/content/etc/subsite/kansenshoujouhou/kansen/sr5cfn200127213457.shtml#hoken_list"
               target="_blank"
               rel="noopener"
             >

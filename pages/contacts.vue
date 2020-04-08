@@ -18,7 +18,7 @@
               <td class="content">感染症に関すること</td>
               <td class="bureau">
                 <a
-                  href="https://www.pref.kagawa.lg.jp/content/etc/sec/sec19500.shtml"
+                  href="https://www.pref.tokushima.lg.jp/content/etc/sec/sec19500.shtml"
                   >薬務感染症対策課</a
                 >
               </td>
@@ -28,7 +28,7 @@
               <td class="content">高齢者施設に関すること</td>
               <td class="bureau">
                 <a
-                  href="https://www.pref.kagawa.lg.jp/content/etc/sec/sec19200.shtml"
+                  href="https://www.pref.tokushima.lg.jp/content/etc/sec/sec19200.shtml"
                   >長寿社会対策課</a
                 >
               </td>
@@ -38,7 +38,7 @@
               <td class="content">障害児・者施設に関すること</td>
               <td class="bureau">
                 <a
-                  href="https://www.pref.kagawa.lg.jp/content/etc/sec/sec19400.shtml"
+                  href="https://www.pref.tokushima.lg.jp/content/etc/sec/sec19400.shtml"
                   >障害福祉課</a
                 >
               </td>
@@ -50,7 +50,7 @@
               </td>
               <td class="bureau">
                 <a
-                  href="https://www.pref.kagawa.lg.jp/content/etc/sec/sec19300.shtml"
+                  href="https://www.pref.tokushima.lg.jp/content/etc/sec/sec19300.shtml"
                   >子ども家庭課（児童家庭グループ）</a
                 >
               </td>
@@ -62,7 +62,7 @@
               </td>
               <td class="bureau">
                 <a
-                  href="https://www.pref.kagawa.lg.jp/content/etc/sec/sec19300.shtml"
+                  href="https://www.pref.tokushima.lg.jp/content/etc/sec/sec19300.shtml"
                   >子ども家庭課（保育所グループ）</a
                 >
               </td>
@@ -72,7 +72,7 @@
               <td class="content">県主催行事の開催基準に関すること</td>
               <td class="bureau">
                 <a
-                  href="https://www.pref.kagawa.lg.jp/content/etc/sec/sec19100.shtml"
+                  href="https://www.pref.tokushima.lg.jp/content/etc/sec/sec19100.shtml"
                   >健康福祉総務課</a
                 >
               </td>
@@ -82,7 +82,7 @@
               <td class="content">観光に関すること</td>
               <td class="bureau">
                 <a
-                  href="https://www.pref.kagawa.lg.jp/content/etc/sec/sec10520.shtml"
+                  href="https://www.pref.tokushima.lg.jp/content/etc/sec/sec10520.shtml"
                   >観光振興課</a
                 >
               </td>
@@ -92,7 +92,7 @@
               <td class="content">中小企業の経営に関すること</td>
               <td class="bureau">
                 <a
-                  href="https://www.pref.kagawa.lg.jp/content/etc/sec/sec15710.shtml"
+                  href="https://www.pref.tokushima.lg.jp/content/etc/sec/sec15710.shtml"
                   >経営支援課</a
                 >
               </td>
@@ -102,7 +102,7 @@
               <td class="content">労働や雇用に関すること</td>
               <td class="bureau">
                 <a
-                  href="https://www.pref.kagawa.lg.jp/content/etc/sec/sec15710.shtml"
+                  href="https://www.pref.tokushima.lg.jp/content/etc/sec/sec15710.shtml"
                   >労働政策課</a
                 >
               </td>
@@ -112,7 +112,7 @@
               <td class="content">県立中学校、高等学校に関すること</td>
               <td class="bureau">
                 <a
-                  href="https://www.pref.kagawa.lg.jp/content/etc/sec/sec31400.shtml"
+                  href="https://www.pref.tokushima.lg.jp/content/etc/sec/sec31400.shtml"
                   >高校教育課</a
                 >
               </td>
@@ -122,7 +122,7 @@
               <td class="content">県立特別支援学校に関すること</td>
               <td class="bureau">
                 <a
-                  href="https://www.pref.kagawa.lg.jp/content/etc/sec/sec31500.shtml"
+                  href="https://www.pref.tokushima.lg.jp/content/etc/sec/sec31500.shtml"
                   >特別支援教育課</a
                 >
               </td>
@@ -132,7 +132,7 @@
               <td class="content">上記以外の内容</td>
               <td class="bureau" colspan="2">
                 「<a
-                  href="https://www.pref.kagawa.lg.jp/content/koho/kohosonota/soudan.shtml"
+                  href="https://www.pref.tokushima.lg.jp/content/koho/kohosonota/soudan.shtml"
                   >各種相談窓口のご案内</a
                 >」のページをご覧ください。
               </td>
