@@ -28,12 +28,16 @@ import ConfirmedCasesNumberCard from '@/components/cards/ConfirmedCasesNumberCar
 import TestedNumberCard from '@/components/cards/TestedNumberCard.vue'
 import TelephoneAdvisoryReportsNumberCard from '@/components/cards/TelephoneAdvisoryReportsNumberCard.vue'
 import ConsultationDeskReportsNumberCard from '@/components/cards/ConsultationDeskReportsNumberCard.vue'
+import ConfirmedCasesDetailsCard from '@/components/cards/ConfirmedCasesDetailsCard.vue'
+import ConfirmedCasesAttributesCard from '@/components/cards/ConfirmedCasesAttributesCard.vue'
 
 export default Vue.extend({
   components: {
     PageHeader,
     WhatsNew,
+    ConfirmedCasesDetailsCard,
     ConfirmedCasesNumberCard,
+    ConfirmedCasesAttributesCard,
     TestedNumberCard,
     TelephoneAdvisoryReportsNumberCard,
     ConsultationDeskReportsNumberCard

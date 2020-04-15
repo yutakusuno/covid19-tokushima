@@ -1,6 +1,11 @@
 {
     "newsItems": [
         {
+            "date": "2020\/4\/14",
+            "url": "https:\/\/www.pref.tokushima.lg.jp\/ippannokata\/kyoiku\/kanko\/5036430\/",
+            "text": "美馬野外交流の郷（四国三郎の郷）の臨時休業について"
+        }
+        {
             "date": "2020\/4\/10",
             "url": "https:\/\/www.pref.tokushima.lg.jp\/kaigohoken\/topics\/5034744\/",
             "text": "新型コロナウイルス感染症に係る周知"
@@ -19,11 +24,6 @@
             "date": "2020\/4\/10",
             "url": "https:\/\/www.pref.tokushima.lg.jp\/ippannokata\/sangyo\/shushokushien\/5036298\/",
             "text": "新型コロナウイルス感染症に係るテクノスクールの対応について"
-        },
-        {
-            "date": "2020\/4\/10",
-            "url": "https:\/\/www.pref.tokushima.lg.jp\/ippannokata\/kenko\/koreishafukushi\/5036329\/",
-            "text": "2020年度におけるユニットケア研修（ユニットリーダー研修、ユニットケア施設管理者研修）の取扱について"
         }
     ]
 }
