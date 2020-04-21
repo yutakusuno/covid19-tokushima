@@ -1,8 +1,8 @@
 {
   "name": "covid19",
   "version": "1.0.0",
-  "description": "香川県 新型コロナウイルス感染症対策サイト",
-  "author": "香川県",
+  "description": "徳島県 新型コロナウイルス感染症対策サイト",
+  "author": "徳島県",
   "private": true,
   "engines": {
     "node": ">=10.19.0"

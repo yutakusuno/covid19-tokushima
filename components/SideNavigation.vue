@@ -114,18 +114,22 @@ export default Vue.extend({
         },
         {
           icon: 'mdi-account-multiple',
-          title: this.$t('県民の皆様へ'),
+          title: this.$t('県民のみなさまへ'),
           link:
-            'https://www.pref.tokushima.lg.jp/ippannokata/kenko/kansensho/5035331/'
+            'https://www.pref.tokushima.lg.jp/ippannokata/kenko/kansensho/covid-19_kenmin/'
         },
         {
           icon: 'mdi-domain',
-          title: this.$t('企業の皆様・はたらく皆様へ'),
+          title: this.$t('事業者のみなさまへ'),
           link:
-            'https://www.pref.tokushima.lg.jp/ippannokata/kenko/kansensho/5035331/',
+            'https://www.pref.tokushima.lg.jp/jigyoshanokata/kenko/kansensho/covid-19_jigyosha/'
+        },
+        {
+          title: this.$t('医療関係者のみなさまへ'),
+          link:
+            'https://www.pref.tokushima.lg.jp/jigyoshanokata/kenko/kansensho/covid-19_iryo/',
           divider: true
         },
-
         {
           title: this.$t('当サイトについて'),
           link: this.localePath('/about')
@@ -133,8 +137,7 @@ export default Vue.extend({
         {
           title: this.$t('知事からのメッセージ'),
           link:
-            'https://www.pref.tokushima.lg.jp/ippannokata/kenko/kansensho/5035364/#100',
-          divider: true
+            'https://www.pref.tokushima.lg.jp/ippannokata/kenko/kansensho/5035364/#100'
         },
         {
           title: this.$t('徳島県公式ホームページ'),

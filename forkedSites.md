@@ -4,7 +4,7 @@
 
 都道府県名 | 公開サイト | プロジェクト
 ------------ | ------------- | -------------
-香川県(このサイト)|https://tokushima-covid19.netlify.com|[tokushima-metropolitan-gov/covid19](https://github.com/tokushima-metropolitan-gov/covid19)|
+徳島県(このサイト)|https://tokushima-covid19.netlify.com|[tokushima-metropolitan-gov/covid19](https://github.com/tokushima-metropolitan-gov/covid19)|
 <!-- 01 -->北海道|https://stopcovid19.hokkaido.dev/|[codeforsapporo/covid19](https://github.com/codeforsapporo/covid19)|
 <!-- 11 -->埼玉県|https://stopcovid19.e-toda.jp/|[codefortoda/covid19-saitama](https://github.com/codefortoda/covid19-saitama)|
 <!-- 12 -->千葉県|https://chiba-covid19.mypl.net/| |
@@ -23,8 +23,8 @@
 
 ## 都道府県追加時のルール
 
-1. 香川県: 先頭で固定とする。
-1. 香川県以外: 厚生労働省発行のPDF([都道府県番号 - tp0727-1d.pdf](https://www.mhlw.go.jp/topics/2007/07/dl/tp0727-1d.pdf))に従って、表に以下の情報を追加する。
+1. 徳島県: 先頭で固定とする。
+1. 徳島県以外: 厚生労働省発行のPDF([都道府県番号 - tp0727-1d.pdf](https://www.mhlw.go.jp/topics/2007/07/dl/tp0727-1d.pdf))に従って、表に以下の情報を追加する。
    - 公開しているサイト: URLを記載する。
    - プロジェクト
       - Private Repository: 未記入とする。

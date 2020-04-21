@@ -97,7 +97,12 @@
     </StaticCard>
     <StaticCard>
       <h3>3. {{ $t('その他') }}</h3>
-      <p>{{ $t('詳細は、各学校からのお知らせ等をご確認ください。') }}</p>
+      <a
+        href="https://www.pref.tokushima.lg.jp/ippannokata/kenko/kansensho/covid-19_hogosha/"
+        target="_blank"
+        rel="noopener"
+        >{{ $t('保護者・児童・生徒のみなさまへ') }}</a
+      >
     </StaticCard>
   </div>
 </template>

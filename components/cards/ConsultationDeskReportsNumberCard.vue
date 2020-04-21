@@ -7,9 +7,7 @@
       :chart-data="querentsGraph"
       :date="Data.querents.date"
       :unit="$t('件.reports')"
-      :url="
-        'https://www.pref.tokushima.lg.jp/ippannokata/kenko/kansensho/5034012#5'
-      "
+      :url="'https://ouropendata.jp/dataset/2192.html'"
     />
     <!-- 件.reports = 窓口相談件数 -->
   </v-col>

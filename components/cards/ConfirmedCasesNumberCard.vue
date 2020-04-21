@@ -7,9 +7,7 @@
       :chart-data="patientsGraph"
       :date="Data.patients.date"
       :unit="$t('人')"
-      :url="
-        'https://www.pref.tokushima.lg.jp/ippannokata/kenko/kansensho/5034012#15'
-      "
+      :url="'https://ouropendata.jp/dataset/2192.html'"
     />
   </v-col>
 </template>

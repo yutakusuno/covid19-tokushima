@@ -35,8 +35,8 @@ const config: Configuration = {
       }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/sudachi.png' },
-      { rel: 'apple-touch-icon', href: '/sudachi.png' },
+      { rel: 'icon', type: 'image/x-icon', href: '/icon.png' },
+      { rel: 'apple-touch-icon', href: '/icon.png' },
       {
         rel: 'stylesheet',
         href: 'https://use.fontawesome.com/releases/v5.6.1/css/all.css'

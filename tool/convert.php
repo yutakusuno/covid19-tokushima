@@ -110,7 +110,7 @@ function readQuerents() : array
 
 function readPatientsV2() : array
 {
-  $data = xlsxToArray(__DIR__.'/downloads/香川県患者発生発表数-RAW.xlsx', 'RAW', 'A2:J100', 'A1:J1');
+  $data = xlsxToArray(__DIR__.'/downloads/徳島県患者発生発表数-RAW.xlsx', 'RAW', 'A2:J100', 'A1:J1');
   $base_data = $data->filter(function ($row) {
     return $row['リリース日'];
   })->map(function ($row) {
@@ -124,7 +124,7 @@ function readPatientsV2() : array
   });
 
   return [
-    'date' => xlsxToArray(__DIR__.'/downloads/香川県患者発生発表数-RAW.xlsx', 'RAW', 'M1')[0][0],
+    'date' => xlsxToArray(__DIR__.'/downloads/徳島県患者発生発表数-RAW.xlsx', 'RAW', 'M1')[0][0],
     'data' => [
       '感染者数' => makeDateArray('2020-01-24')->merge($base_data->groupBy('リリース日')->map(function ($rows) {
         return $rows->count();
@@ -161,10 +161,10 @@ function readPatientsV2() : array
 
 function readPatients() : array
 {
-    $data = xlsxToArray(__DIR__.'/downloads/香川県患者発生発表数-RAW.xlsx', 'RAW', 'A2:J100', 'A1:J1');
+    $data = xlsxToArray(__DIR__.'/downloads/徳島県患者発生発表数-RAW.xlsx', 'RAW', 'A2:J100', 'A1:J1');
 
     return [
-      'date' => xlsxToArray(__DIR__.'/downloads/香川県患者発生発表数-RAW.xlsx', 'RAW', 'M1')[0][0],
+      'date' => xlsxToArray(__DIR__.'/downloads/徳島県患者発生発表数-RAW.xlsx', 'RAW', 'M1')[0][0],
       'data' => $data->filter(function ($row) {
         return $row['リリース日'];
       })->map(function ($row) {
