@@ -75,7 +75,12 @@ const config: Configuration = {
     '@nuxtjs/stylelint-module',
     '@nuxtjs/vuetify',
     '@nuxt/typescript-build',
-    '@nuxtjs/google-analytics'
+    [
+      '@nuxtjs/google-analytics',
+      {
+        id: 'UA-162749434-2'
+      }
+    ]
   ],
   /*
    ** Nuxt.js modules
