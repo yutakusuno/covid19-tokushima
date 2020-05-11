@@ -1,6 +1,11 @@
 {
     "newsItems": [
         {
+            "date": "2020/5/11",
+            "url": "https://www.pref.tokushima.lg.jp/kenseijoho/zaisei/5037098/",
+            "text": "緊急事態宣言に伴う宝くじの販売対応について"
+        },
+        {
             "date": "2020/5/8",
             "url": "https://www.pref.tokushima.lg.jp/ippannokata/kenko/kansensho/5037097/",
             "text": "徳島県「新型コロナ対策 政策創造・情報発信タスクフォース」 の設置について"
@@ -19,11 +24,6 @@
             "date": "2020/5/8",
             "url": "https://www.pref.tokushima.lg.jp/jigyoshanokata/sangyo/ringyo/5036390/",
             "text": "林業技術研修＜新型コロナウイルス感染拡大への対応について＞(令和2年5月8日時点)"
-        },
-        {
-            "date": "2020/5/8",
-            "url": "https://www.pref.tokushima.lg.jp/kigyoukyoku/new-info/5037014/",
-            "text": "新型コロナウイルス感染症の影響を踏まえた工業用水道料金に係る対応について"
         }
     ]
 }
