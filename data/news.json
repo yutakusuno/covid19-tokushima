@@ -1,29 +1,29 @@
 {
     "newsItems": [
         {
+            "date": "2020/5/13",
+            "url": "https://www.pref.tokushima.lg.jp/ippannokata/kendozukuri/kowan/5036227/",
+            "text": "新型コロナウイルス感染症の影響に伴う航空路線の一部減便について（令和2年5月13日時点）"
+        },
+        {
+            "date": "2020/5/13",
+            "url": "https://www.pref.tokushima.lg.jp/jigyoshanokata/sangyo/rodokankei/5036633/",
+            "text": "徳島県新型コロナ対応雇用継続助成金を創設しました（5月13日追記しました）"
+        },
+        {
+            "date": "2020/5/12",
+            "url": "https://www.pref.tokushima.lg.jp/kaigohoken/topics/5034744/",
+            "text": "新型コロナウイルス感染症に係る周知【5月12日更新】"
+        },
+        {
+            "date": "2020/5/12",
+            "url": "https://www.pref.tokushima.lg.jp/jigyoshanokata/kyoiku/kanko/5036931/",
+            "text": "「新型感染症対策がんばる観光応援事業」の募集について"
+        },
+        {
             "date": "2020/5/11",
             "url": "https://www.pref.tokushima.lg.jp/kenseijoho/zaisei/5037098/",
             "text": "緊急事態宣言に伴う宝くじの販売対応について"
-        },
-        {
-            "date": "2020/5/8",
-            "url": "https://www.pref.tokushima.lg.jp/ippannokata/kenko/kansensho/5037097/",
-            "text": "徳島県「新型コロナ対策 政策創造・情報発信タスクフォース」 の設置について"
-        },
-        {
-            "date": "2020/5/8",
-            "url": "https://www.pref.tokushima.lg.jp/shohi/merumaga/5037087/",
-            "text": "緊急配信No.21特別定額給付金を装った詐欺に注意!(R2.5.8)"
-        },
-        {
-            "date": "2020/5/8",
-            "url": "https://www.pref.tokushima.lg.jp/ippannokata/kenko/shogaifukushi/5037084/",
-            "text": "障がい者交流センターの再開について"
-        },
-        {
-            "date": "2020/5/8",
-            "url": "https://www.pref.tokushima.lg.jp/jigyoshanokata/sangyo/ringyo/5036390/",
-            "text": "林業技術研修＜新型コロナウイルス感染拡大への対応について＞(令和2年5月8日時点)"
         }
     ]
 }
