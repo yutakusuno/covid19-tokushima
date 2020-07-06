@@ -3,7 +3,22 @@
         {
             "date": "2020/7/1",
             "url": "https://www.pref.tokushima.lg.jp/ippannokata/kenko/kansensho/5035331/",
-            "text": "徳島県新型コロナウイルス対策ポータルサイト　の新着情報を確認ください"
+            "text": "徳島県  新型コロナウイルス対策ポータルサイト　の新着情報を確認ください"
+        },
+        {
+            "date": "2020/7/1",
+            "url": "https://www.nhk.or.jp/tokushima/corona/",
+            "text": "NHK徳島放送局　特設サイト【徳島県の新型ウイルス肺炎】"
+        },
+        {
+            "date": "2020/7/1",
+            "url": "https://www.topics.or.jp/articles/-/360063",
+            "text": "徳島新聞　新型コロナウイルス特集"
+        },
+        {
+            "date": "2020/7/1",
+            "url": "http://www.jrt.co.jp/corona/",
+            "text": "四国放送　新型コロナウイルス関連情報"
         }
     ]
 }
