@@ -1,6 +1,6 @@
 <template>
   <div class="SideNavigation">
-    <header class="SideNavigation-HeadingContainer sp-flex">
+    <!-- <header class="SideNavigation-HeadingContainer sp-flex">
       <v-icon
         class="SideNavigation-HeadingIcon pc-none"
         :aria-label="$t('サイドメニュー項目を開く')"
@@ -53,7 +53,6 @@
           >
             <img src="/twitter.png" alt="Twitter" />
           </a>
-          <!--
           <a
             href="https://www.facebook.com/%E9%A6%99%E5%B7%9D%E7%9C%8C-291352664236696"
             target="_blank"
@@ -61,7 +60,6 @@
           >
             <img src="/facebook.png" alt="Facebook" />
           </a>
-          -->
           <a
             href="https://github.com/yuta-kusuno/covid19-tokushima"
             target="_blank"
@@ -71,208 +69,208 @@
           </a>
         </div>
       </v-footer>
-    </div>
+    </div> -->
   </div>
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
-import { TranslateResult } from 'vue-i18n'
-import ListItem from '@/components/ListItem.vue'
-import LanguageSelector from '@/components/LanguageSelector.vue'
+// import Vue from 'vue'
+// import { TranslateResult } from 'vue-i18n'
+// import ListItem from '@/components/ListItem.vue'
+// import LanguageSelector from '@/components/LanguageSelector.vue'
 
-type Item = {
-  icon?: string
-  title: TranslateResult
-  link: string
-  divider?: boolean
-}
+// type Item = {
+//   icon?: string
+//   title: TranslateResult
+//   link: string
+//   divider?: boolean
+// }
 
-export default Vue.extend({
-  components: {
-    ListItem,
-    LanguageSelector
-  },
-  props: {
-    isNaviOpen: {
-      type: Boolean,
-      required: true
-    }
-  },
-  computed: {
-    items(): Item[] {
-      return [
-        {
-          icon: 'mdi-chart-timeline-variant',
-          title: this.$t('県内の最新感染動向'),
-          link: this.localePath('/')
-        },
-        {
-          icon: 'parent',
-          title: this.$t('お子様をお持ちの皆様へ'),
-          link: this.localePath('/parent')
-        },
-        {
-          icon: 'mdi-account-multiple',
-          title: this.$t('県民のみなさまへ'),
-          link:
-            'https://www.pref.tokushima.lg.jp/ippannokata/kenko/kansensho/covid-19_kenmin/'
-        },
-        {
-          icon: 'mdi-domain',
-          title: this.$t('事業者のみなさまへ'),
-          link:
-            'https://www.pref.tokushima.lg.jp/jigyoshanokata/kenko/kansensho/covid-19_jigyosha/'
-        },
-        {
-          title: this.$t('医療関係者のみなさまへ'),
-          link:
-            'https://www.pref.tokushima.lg.jp/jigyoshanokata/kenko/kansensho/covid-19_iryo/',
-          divider: true
-        },
-        {
-          title: this.$t('当サイトについて'),
-          link: this.localePath('/about')
-        },
-        {
-          title: this.$t('知事からのメッセージ'),
-          link:
-            'https://www.pref.tokushima.lg.jp/ippannokata/kenko/kansensho/5035364/#100'
-        },
-        {
-          title: this.$t('徳島県公式ホームページ'),
-          link: 'https://www.pref.tokushima.lg.jp/',
-          divider: true
-        }
-      ]
-    }
-  },
-  methods: {
-    openNavi(): void {
-      this.$emit('openNavi')
-    },
-    closeNavi(): void {
-      this.$emit('closeNavi')
-    }
-  }
-})
+// export default Vue.extend({
+//   components: {
+//     ListItem,
+//     LanguageSelector
+//   },
+//   props: {
+//     isNaviOpen: {
+//       type: Boolean,
+//       required: true
+//     }
+//   },
+//   computed: {
+//     items(): Item[] {
+//       return [
+//         {
+//           icon: 'mdi-chart-timeline-variant',
+//           title: this.$t('県内の最新感染動向'),
+//           link: this.localePath('/')
+//         },
+//         {
+//           icon: 'parent',
+//           title: this.$t('お子様をお持ちの皆様へ'),
+//           link: this.localePath('/parent')
+//         },
+//         {
+//           icon: 'mdi-account-multiple',
+//           title: this.$t('県民のみなさまへ'),
+//           link:
+//             'https://www.pref.tokushima.lg.jp/ippannokata/kenko/kansensho/covid-19_kenmin/'
+//         },
+//         {
+//           icon: 'mdi-domain',
+//           title: this.$t('事業者のみなさまへ'),
+//           link:
+//             'https://www.pref.tokushima.lg.jp/jigyoshanokata/kenko/kansensho/covid-19_jigyosha/'
+//         },
+//         {
+//           title: this.$t('医療関係者のみなさまへ'),
+//           link:
+//             'https://www.pref.tokushima.lg.jp/jigyoshanokata/kenko/kansensho/covid-19_iryo/',
+//           divider: true
+//         },
+//         {
+//           title: this.$t('当サイトについて'),
+//           link: this.localePath('/about')
+//         },
+//         {
+//           title: this.$t('知事からのメッセージ'),
+//           link:
+//             'https://www.pref.tokushima.lg.jp/ippannokata/kenko/kansensho/5035364/#100'
+//         },
+//         {
+//           title: this.$t('徳島県公式ホームページ'),
+//           link: 'https://www.pref.tokushima.lg.jp/',
+//           divider: true
+//         }
+//       ]
+//     }
+//   },
+//   methods: {
+//     openNavi(): void {
+//       this.$emit('openNavi')
+//     },
+//     closeNavi(): void {
+//       this.$emit('closeNavi')
+//     }
+//   }
+// })
 </script>
 
 <style lang="scss" scoped>
-.SideNavigation {
-  position: relative;
-  height: 100%;
-  background: $white;
-  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.15);
-  &-HeadingContainer {
-    padding: 1.25em 0 1.25em 1.25em;
-    align-items: center;
-    @include lessThan($small) {
-      padding: 7px 10px;
-    }
-  }
-  &-HeadingIcon {
-    margin-right: 10px;
-  }
-  &-HeadingLink {
-    @include lessThan($small) {
-      display: flex;
-      align-items: center;
-    }
-    text-decoration: none;
-  }
-  &-ListContainerIcon {
-    width: 21px;
-    margin: 24px 16px 0;
-  }
-  &-ListItemContainer {
-    padding: 2px 20px;
-  }
-  &-Logo {
-    margin: 5px 16px 15px 0;
-    width: 110px;
-    @include lessThan($small) {
-      margin: 0 16px 0 0;
-    }
-  }
-  &-Heading {
-    margin-top: 8px;
-    font-size: 13px;
-    color: #707070;
-    padding: 0.5em 0;
-    text-decoration: none;
-    @include lessThan($small) {
-      display: flex;
-      align-items: center;
-      width: 100%;
-      margin-top: 0;
-    }
-  }
-  &-HeadingDivider {
-    margin: 0px 20px 4px;
-    @include lessThan($small) {
-      display: none;
-    }
-  }
-  &-Divider {
-    margin: 12px 0;
-  }
-  &-LanguageMenu {
-    padding: 0 20px;
-    background: #fff;
-  }
-  &-Footer {
-    padding: 20px;
-    background-color: $white;
-  }
-  &-SocialLinkContainer {
-    display: flex;
-    & a:not(:last-of-type) {
-      margin-right: 10px;
-    }
-    & img {
-      width: 30px;
-    }
-  }
-  &-Copyright {
-    display: block;
-    margin-top: 10px;
-    font-size: 8px;
-    line-height: 1.2;
-    color: $gray-1;
-    font-weight: bold;
-  }
-}
-.open {
-  @include lessThan($small) {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    display: block !important;
-    width: 100%;
-    z-index: z-index-of(opened-side-navigation);
-    background-color: $white;
-    height: 100%;
-    overflow-y: scroll;
-  }
-}
-@include lessThan($tiny) {
-  .sp-logo {
-    width: 100px;
-  }
-}
-@include largerThan($small) {
-  .pc-none {
-    display: none;
-  }
-}
-@include lessThan($small) {
-  .sp-flex {
-    display: flex;
-  }
-  .sp-none {
-    display: none;
-  }
-}
+// .SideNavigation {
+//   position: relative;
+//   height: 100%;
+//   background: $white;
+//   box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.15);
+//   &-HeadingContainer {
+//     padding: 1.25em 0 1.25em 1.25em;
+//     align-items: center;
+//     @include lessThan($small) {
+//       padding: 7px 10px;
+//     }
+//   }
+//   &-HeadingIcon {
+//     margin-right: 10px;
+//   }
+//   &-HeadingLink {
+//     @include lessThan($small) {
+//       display: flex;
+//       align-items: center;
+//     }
+//     text-decoration: none;
+//   }
+//   &-ListContainerIcon {
+//     width: 21px;
+//     margin: 24px 16px 0;
+//   }
+//   &-ListItemContainer {
+//     padding: 2px 20px;
+//   }
+//   &-Logo {
+//     margin: 5px 16px 15px 0;
+//     width: 110px;
+//     @include lessThan($small) {
+//       margin: 0 16px 0 0;
+//     }
+//   }
+//   &-Heading {
+//     margin-top: 8px;
+//     font-size: 13px;
+//     color: #707070;
+//     padding: 0.5em 0;
+//     text-decoration: none;
+//     @include lessThan($small) {
+//       display: flex;
+//       align-items: center;
+//       width: 100%;
+//       margin-top: 0;
+//     }
+//   }
+//   &-HeadingDivider {
+//     margin: 0px 20px 4px;
+//     @include lessThan($small) {
+//       display: none;
+//     }
+//   }
+//   &-Divider {
+//     margin: 12px 0;
+//   }
+//   &-LanguageMenu {
+//     padding: 0 20px;
+//     background: #fff;
+//   }
+//   &-Footer {
+//     padding: 20px;
+//     background-color: $white;
+//   }
+//   &-SocialLinkContainer {
+//     display: flex;
+//     & a:not(:last-of-type) {
+//       margin-right: 10px;
+//     }
+//     & img {
+//       width: 30px;
+//     }
+//   }
+//   &-Copyright {
+//     display: block;
+//     margin-top: 10px;
+//     font-size: 8px;
+//     line-height: 1.2;
+//     color: $gray-1;
+//     font-weight: bold;
+//   }
+// }
+// .open {
+//   @include lessThan($small) {
+//     position: fixed;
+//     top: 0;
+//     bottom: 0;
+//     left: 0;
+//     display: block !important;
+//     width: 100%;
+//     z-index: z-index-of(opened-side-navigation);
+//     background-color: $white;
+//     height: 100%;
+//     overflow-y: scroll;
+//   }
+// }
+// @include lessThan($tiny) {
+//   .sp-logo {
+//     width: 100px;
+//   }
+// }
+// @include largerThan($small) {
+//   .pc-none {
+//     display: none;
+//   }
+// }
+// @include lessThan($small) {
+//   .sp-flex {
+//     display: flex;
+//   }
+//   .sp-none {
+//     display: none;
+//   }
+// }
 </style>
